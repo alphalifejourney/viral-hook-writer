@@ -1,25 +1,37 @@
 # Hook Templates
 
-Fill-in-the-blank formulas. Swap the words in [brackets] for your business.
+Fill-in-the-blank formulas. Swap the words in [brackets] for the business. You can adjust the wording; a hook counts as a formula if it follows its pattern.
 
-| # | Formula | Template | Example (coffee shop) |
-|---|---------|----------|-----------------------|
-| 1 | Mistake | Stop doing [common habit] if you want [result]. | Stop ordering this if you want coffee that actually wakes you up. |
-| 2 | Secret | Here's what [your industry] won't tell you about [topic]. | Here's what coffee shops won't tell you about "fresh" beans. |
-| 3 | Question | Why does your [thing] always [annoying problem]? | Why does your home coffee always taste bitter? |
-| 4 | Contrast | [Cheap/easy option] vs [expensive/hard option]. Which wins? | $1 instant coffee vs our $3 latte. Which wins? |
-| 5 | Number | [Number] things I wish every [customer type] knew. | 3 things I wish every coffee lover knew. |
-| 6 | Story | A customer came in and said [surprising thing]. | A customer came in and said she hates coffee. Then this happened. |
-| 7 | Behind the scenes | This is what [process] really looks like. | This is what making 200 coffees before 9am really looks like. |
-| 8 | Challenge | I bet you can't [do something] without [thing]. | I bet you can't drink this without smiling. |
-| 9 | Warning | Don't [action] until you watch this. | Don't buy another coffee machine until you watch this. |
-| 10 | Result first | This [simple change] [real result]. | This one change made our iced coffee stop going watery. |
-| 11 | Pointing at viewer | If you [situation], this is for you. | If you need coffee to survive Monday, this is for you. |
-| 12 | Myth | Everyone thinks [belief]. It's wrong. | Everyone thinks dark roast has more caffeine. It doesn't. |
+🔒 = only use if the user gave you the real fact (a real story, number or result). Never make these up.
+⛔ = never use for health, beauty, money or safety businesses.
 
-## Tips
+| # | Formula | Template | Example (bakery) |
+|---|---------|----------|------------------|
+| 1 | Question | Why does your [thing] always [annoying problem]? | Why does homemade cake always come out dry? |
+| 2 | Mistake | Stop [common habit] if you want [what they want]. | Stop putting cake in the fridge if you want it soft. |
+| 3 | Myth | [Common belief]? Not true. | Cake needs the fridge? Not true. |
+| 4 | Contrast | [Option A] or [option B]? [Short question]. | Chocolate or mango cake? Kids decide. |
+| 5 | Warning | Don't [action] until you watch this. | Don't order a birthday cake until you watch this. |
+| 6 | Pointing at viewer | If you [situation], this is for you. | If your kids never finish their cake, this is for you. |
+| 7 | Behind the scenes | This is what [process] really looks like. | This is what decorating a wedding cake really looks like. |
+| 8 | Challenge | Try [doing something] without [reaction]. | Try watching this without getting hungry. |
+| 9 | Surprising fact | [True, surprising fact]. | Cake tastes better the next day. |
+| 10 | How-to | How to [get result] in [real time/steps]. | How to keep cake soft for three days. |
+| 11 | 🔒 Story | A customer told us [real thing they said]. | A customer told us [their real words]. |
+| 12 | 🔒 Number | [Real number] [things/people/times] [fact]. | [Real number] cakes sold this week. |
+| 13 | 🔒⛔ Result first | [Real change] → [real result]. | [What you changed] → [what really happened]. |
+
+## Rules for using templates
+
+- The examples show the pattern only. Never copy their facts into another business's hooks.
+- Myths and surprising facts must be true. Don't claim what "everyone" thinks.
+- Don't make a business attack its own industry, other products, or competitors.
+- Health, beauty, money and safety businesses: never promise a cure or a guaranteed result. Use "can help", "common cause", "ask us about". Skip ⛔ formulas. Take extra care with **Mistake** and **How-to**, which can slip into promises:
+  - ✅ "Stop popping pimples if you want fewer marks." / "How to put on sunscreen in 3 steps."
+  - ❌ "Stop using soap if you want clear skin." / "How to clear acne in 7 days."
+
+## Tips to share with the user
 
 - Say the hook out loud. If it sounds weird to say, rewrite it.
 - Show something moving or surprising in the first second.
-- Put the hook as big text on screen too. Many people watch with the sound off.
-- Only use numbers and results that are true.
+- Put the hook as big text on screen. Many people watch with the sound off.
