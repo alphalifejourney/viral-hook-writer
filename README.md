@@ -4,39 +4,66 @@
 
 A free Claude skill that writes, grades, and improves the first 3 seconds of your short videos (TikTok, Reels, Shorts, Facebook). Made for small business owners. No marketing experience needed.
 
+<p align="center">
+  <a href="https://github.com/alphalifejourney/viral-hook-writer/releases/latest/download/viral-hook-writer.zip"><b>⬇️ Download the skill (viral-hook-writer.zip)</b></a>
+</p>
+
 ---
 
 ## What it does
 
 | Feature | What you get |
 |---------|--------------|
-| ✍️ **Hook generator** | Tell it your business and video topic. Get 10 hooks, scored, with the top 3 picked for you. |
-| 📊 **Hook grader** | Paste any hook. Get a score out of 10, the biggest fix, and 3 better versions. |
-| 📚 **Hook templates** | 12 fill-in-the-blank formulas that work for any business. |
+| ✍️ **Hook writer** | Tell it your business, video topic and viewer. Get 10 scored hooks, best first, plus a top 3. |
+| 📊 **Hook grader** | Paste one hook or several. Get a score out of 10, the biggest fix, and better versions. |
+| 📚 **Hook templates** | 13 fill-in-the-blank formulas, filled in for your business. |
+| ✅ **Honesty check** | Flags fake stats, guarantees, and medical or money promises before you post them. |
 
 ---
 
-## How to install (Claude app)
+## Install (about 1 minute)
 
-1. Click the green **Code** button on this page, then **Download ZIP**.
-2. Unzip it. Inside, find the folder called **`viral-hook-writer`** (the one with `SKILL.md` in it).
-3. Zip **just that folder** again.
-   (Right-click the folder itself and choose "Compress", not the files inside it.)
-4. Open Claude (website or desktop app) → **Customize** → **Skills**, upload your zip, and turn the skill on. Done!
+![Install in 3 steps](images/how-to-install.svg)
 
-> Using Claude Code instead? Copy the inner `viral-hook-writer` folder into `~/.claude/skills/`.
+1. **Download:** click [**viral-hook-writer.zip**](https://github.com/alphalifejourney/viral-hook-writer/releases/latest/download/viral-hook-writer.zip). Don't unzip it.
+2. **Upload:** open Claude (website or desktop app) → **Customize** → **Skills** → upload the zip.
+3. **Turn it on**, start a new chat, and ask in plain words.
+
+> Using Claude Code? Unzip it into `~/.claude/skills/` so the file sits at `~/.claude/skills/viral-hook-writer/SKILL.md`.
 
 ---
 
-## How to use it
+## Example: a dermatology clinic
 
-Just ask Claude in plain words:
+### 1. Ask for hooks
 
-- *"Write hooks for my coffee shop. The video is about our new iced latte. My customers are office workers."*
+Just tell Claude your business, what the video is about, and who's watching:
+
+![Writing hooks for a dermatology clinic](images/example-write-hooks.svg)
+
+### 2. Check hooks you already wrote
+
+Paste your own hooks. The skill ranks them, explains the biggest fix, and catches risky claims:
+
+![Grading hooks for a dermatology clinic](images/example-grade-hooks.svg)
+
+Full text of these examples: [`examples/`](examples/)
+
+---
+
+## Things you can ask
+
+- *"Write hooks for my coffee shop. The video is about our new iced latte. My viewers are office workers."*
 - *"Grade this hook: Hello everyone, welcome to my salon."*
-- *"Show me hook templates for a dental clinic."*
+- *"Grade these 3 hooks: …"*
+- *"Show me hook templates for my dental clinic."*
+- Works in other languages too. Just ask in your language.
 
-See the [`examples`](examples/) folder for full sample results.
+---
+
+## How hooks are scored
+
+Each hook gets 0–2 points on 5 checks: **Curiosity, Clarity, Speed, Relevance, Contrast** (total out of 10). Hooks with unproven claims are capped at 5/10 until you confirm they're true. Details: [`grading-rubric.md`](viral-hook-writer/references/grading-rubric.md)
 
 ---
 
@@ -46,11 +73,12 @@ See the [`examples`](examples/) folder for full sample results.
 viral-hook-writer/
 ├── README.md                  ← you are here
 ├── LICENSE                    ← MIT: free to use and change
-├── examples/                  ← sample results
-└── viral-hook-writer/         ← the skill itself
+├── examples/                  ← full example conversations
+├── images/                    ← pictures used in this page
+└── viral-hook-writer/         ← the skill itself (this is what's in the zip)
     ├── SKILL.md               ← instructions Claude follows
     └── references/
-        ├── hook-templates.md  ← 12 hook formulas
+        ├── hook-templates.md  ← 13 hook formulas
         └── grading-rubric.md  ← how hooks are scored
 ```
 
