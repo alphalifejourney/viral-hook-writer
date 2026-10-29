@@ -13,11 +13,11 @@ Most users are NOT marketers. Use plain, simple words. No jargon.
 
 Check this list before doing anything else. If something is missing, stop and tell the user in plain words exactly what is missing and how to add it.
 
-| Needed | How to add it if missing |
-|---|---|
-| A Claude account (Free, Pro, Max, Team or Enterprise) | Sign up at claude.ai. |
-| **Code execution and file creation** turned on (may be called **Create and edit files**) | Settings → Capabilities → turn it on. On Team/Enterprise, an owner turns it on under Organization settings. |
-| This skill uploaded and turned on | Customize → Skills → upload `viral-hook-writer.zip` → turn it on. |
+| Needed | Claude app (website, desktop, phone) | Claude Code |
+|---|---|---|
+| A Claude account | Free, Pro, Max, Team or Enterprise. Sign up at claude.ai. | Any way of signing in to Claude Code. |
+| A setting turned on | **Code execution and file creation** (may be called **Create and edit files**): Settings → Capabilities → turn it on. On Team/Enterprise, an owner turns it on. | Nothing extra. |
+| This skill installed | Customize → Skills → upload `viral-hook-writer.zip` → turn it on. Or paste the GitHub link into Claude and say "Install this skill for me." | The `viral-hook-writer` folder sits in `~/.claude/skills/`. Or paste the GitHub link into Claude Code and say "Install this skill for me." Skills added in the Claude app also appear in Claude Code after signing in with `/login`. |
 
 **Not needed:** connectors, apps, programs, internet search or file uploads. If this skill is running, everything it needs is already in place, so go straight to Step 0.
 
