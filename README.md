@@ -21,6 +21,19 @@ A free Claude skill that writes, grades, and improves the first 3 seconds of you
 
 ---
 
+## Before you start
+
+You only need 2 things. No other apps, connectors or programs.
+
+| You need | How to check or turn it on |
+|---|---|
+| A Claude account (Free, Pro, Max, Team or Enterprise) | Sign up free at [claude.ai](https://claude.ai) |
+| **Code execution and file creation** turned on (may be called **Create and edit files**) | Claude → **Settings** → **Capabilities** → turn it on. On Team or Enterprise, ask your Claude admin. |
+
+If something is missing, the skill tells you what it is and how to fix it.
+
+---
+
 ## Install (about 1 minute)
 
 ![Install in 3 steps](images/how-to-install.svg)
