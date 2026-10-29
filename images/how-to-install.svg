@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="400" rx="16" fill="#FFFFFF" stroke="#E5E5E5"/>
+  <text x="480" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111">Install in 3 steps (about 1 minute)</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(30,70)">
+    <rect width="280" height="300" rx="14" fill="#FAFAFA" stroke="#DDD"/>
+    <circle cx="36" cy="36" r="20" fill="#C15F3C"/><text x="36" y="43" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">1</text>
+    <text x="66" y="42" font-size="18" font-weight="700" fill="#111">Download</text>
+    <!-- mini GitHub release page -->
+    <rect x="20" y="70" width="240" height="150" rx="8" fill="#fff" stroke="#DDD"/>
+    <rect x="20" y="70" width="240" height="26" rx="8" fill="#24292F"/>
+    <text x="34" y="88" font-size="12" fill="#fff">github.com · Releases</text>
+    <text x="34" y="120" font-size="13" font-weight="700" fill="#111">Viral Hook Writer – download</text>
+    <text x="34" y="144" font-size="11" fill="#666">Assets</text>
+    <rect x="30" y="154" width="220" height="34" rx="6" fill="#EEF5FD" stroke="#4796E3"/>
+    <text x="44" y="176" font-size="13" fill="#4796E3" font-weight="700">📦 viral-hook-writer.zip</text>
+    <path d="M222 205 l10 -14 l4 10 l10 -2 z" fill="#111"/>
+    <text x="140" y="250" text-anchor="middle" font-size="14" fill="#333">Click the</text>
+    <text x="140" y="270" text-anchor="middle" font-size="14" fill="#333"><tspan font-weight="700">Download skill</tspan> button</text>
+    <text x="140" y="290" text-anchor="middle" font-size="14" fill="#333">in this README.</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M318 220 h22 m-8 -8 l8 8 l-8 8" stroke="#C15F3C" stroke-width="3" fill="none"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(340,70)">
+    <rect width="280" height="300" rx="14" fill="#FAFAFA" stroke="#DDD"/>
+    <circle cx="36" cy="36" r="20" fill="#C15F3C"/><text x="36" y="43" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">2</text>
+    <text x="66" y="42" font-size="18" font-weight="700" fill="#111">Upload</text>
+    <rect x="20" y="70" width="240" height="150" rx="8" fill="#fff" stroke="#DDD"/>
+    <text x="34" y="96" font-size="11" fill="#666">Claude › Customize</text>
+    <text x="34" y="118" font-size="15" font-weight="700" fill="#111">Skills</text>
+    <rect x="160" y="102" width="88" height="26" rx="6" fill="#111"/>
+    <text x="204" y="120" text-anchor="middle" font-size="12" fill="#fff">+ Upload</text>
+    <rect x="34" y="140" width="212" height="66" rx="8" fill="#fff" stroke="#BBB" stroke-dasharray="5 4"/>
+    <text x="140" y="170" text-anchor="middle" font-size="12" fill="#666">Drop</text>
+    <text x="140" y="188" text-anchor="middle" font-size="12" fill="#666">viral-hook-writer.zip</text>
+    <text x="140" y="250" text-anchor="middle" font-size="14" fill="#333">Open Claude, go to</text>
+    <text x="140" y="270" text-anchor="middle" font-size="14" fill="#333"><tspan font-weight="700">Customize → Skills</tspan>,</text>
+    <text x="140" y="290" text-anchor="middle" font-size="14" fill="#333">and upload the zip.</text>
+  </g>
+
+  <path d="M628 220 h22 m-8 -8 l8 8 l-8 8" stroke="#C15F3C" stroke-width="3" fill="none"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(650,70)">
+    <rect width="280" height="300" rx="14" fill="#FAFAFA" stroke="#DDD"/>
+    <circle cx="36" cy="36" r="20" fill="#C15F3C"/><text x="36" y="43" text-anchor="middle" font-size="20" font-weight="700" fill="#fff">3</text>
+    <text x="66" y="42" font-size="18" font-weight="700" fill="#111">Turn on &amp; ask</text>
+    <rect x="20" y="70" width="240" height="150" rx="8" fill="#fff" stroke="#DDD"/>
+    <text x="34" y="98" font-size="13" font-weight="700" fill="#111">viral-hook-writer</text>
+    <rect x="198" y="84" width="44" height="22" rx="11" fill="#74AA9C"/><circle cx="231" cy="95" r="8" fill="#fff"/>
+    <line x1="34" y1="118" x2="246" y2="118" stroke="#EEE"/>
+    <rect x="34" y="132" width="212" height="70" rx="10" fill="#F3F1EC"/>
+    <text x="46" y="156" font-size="12" fill="#111">Write hooks for my bakery.</text>
+    <text x="46" y="174" font-size="12" fill="#111">The video is about our</text>
+    <text x="46" y="192" font-size="12" fill="#111">new mango cake.</text>
+    <text x="140" y="250" text-anchor="middle" font-size="14" fill="#333">Switch it <tspan font-weight="700">on</tspan>, start a</text>
+    <text x="140" y="270" text-anchor="middle" font-size="14" fill="#333">new chat, and ask in</text>
+    <text x="140" y="290" text-anchor="middle" font-size="14" fill="#333">plain words.</text>
+  </g>
+</svg>
