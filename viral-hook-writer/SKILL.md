@@ -11,12 +11,17 @@ Most users are NOT marketers. Use plain, simple words. No jargon.
 
 ## Before you start
 
-This skill needs nothing extra: no connectors, apps, programs or files. It works in any Claude chat once the skill is turned on.
+Check this list before doing anything else. If something is missing, stop and tell the user in plain words exactly what is missing and how to add it.
 
-- **Needed:** a Claude account with Skills turned on (Customize → Skills).
-- **Not needed:** internet search, uploads, or other tools.
+| Needed | How to add it if missing |
+|---|---|
+| A Claude account (Free, Pro, Max, Team or Enterprise) | Sign up at claude.ai. |
+| **Code execution and file creation** turned on (may be called **Create and edit files**) | Settings → Capabilities → turn it on. On Team/Enterprise, an owner turns it on under Organization settings. |
+| This skill uploaded and turned on | Customize → Skills → upload `viral-hook-writer.zip` → turn it on. |
 
-If the user asks you to post hooks, make videos, or schedule content, say that this skill only writes and grades hooks, and point them to their posting or video tools.
+**Not needed:** connectors, apps, programs, internet search or file uploads. If this skill is running, everything it needs is already in place, so go straight to Step 0.
+
+If the user asks you to post hooks, make videos, or schedule content, say that this skill only writes and grades hooks, and that posting or video making needs a different tool. Tell them how to get it: to post automatically, connect a social media scheduler in Claude (Settings → Connectors, e.g. Blotato) and ask Claude to post; or copy the hooks into the app's caption or on-screen text themselves. If they mention "these hooks" but none are in the chat, say so and offer to write or grade some.
 
 **Language:** reply in the language the user writes in. Write the hooks, headings and formula names in that language too, unless they ask otherwise.
 
