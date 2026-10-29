@@ -23,12 +23,14 @@ A free Claude skill that writes, grades, and improves the first 3 seconds of you
 
 ## Before you start
 
-You only need 2 things. No other apps, connectors or programs.
+No other apps, connectors or programs needed. It works in the Claude app and in Claude Code.
 
-| You need | How to check or turn it on |
-|---|---|
-| A Claude account (Free, Pro, Max, Team or Enterprise) | Sign up free at [claude.ai](https://claude.ai) |
-| **Code execution and file creation** turned on (may be called **Create and edit files**) | Claude → **Settings** → **Capabilities** → turn it on. On Team or Enterprise, ask your Claude admin. |
+| You need | Claude app (website, desktop, phone) | Claude Code |
+|---|---|---|
+| A Claude account | Free, Pro, Max, Team or Enterprise. Sign up free at [claude.ai](https://claude.ai) | Any way of signing in to Claude Code |
+| A setting turned on | **Code execution and file creation** (may be called **Create and edit files**): **Settings** → **Capabilities** → turn it on. On Team or Enterprise, ask your Claude admin. | Nothing extra |
+
+> Already added the skill in the Claude app? Sign in to Claude Code with `/login` and it shows up there too.
 
 If something is missing, the skill tells you what it is and how to fix it.
 
