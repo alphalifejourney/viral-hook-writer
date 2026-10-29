@@ -1,0 +1,35 @@
+# Builds a ready-to-upload skill zip every time the skill changes,
+# so people can download it in one click from the Releases page.
+name: Build skill zip
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "viral-hook-writer/**"
+      - ".github/workflows/release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Zip the skill folder
+        run: zip -r viral-hook-writer.zip viral-hook-writer
+
+      - name: Publish to the "latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view latest >/dev/null 2>&1; then
+            gh release upload latest viral-hook-writer.zip --clobber
+          else
+            gh release create latest viral-hook-writer.zip \
+              --title "Viral Hook Writer – download" \
+              --notes "Download viral-hook-writer.zip below and upload it in Claude → Customize → Skills."
+          fi
