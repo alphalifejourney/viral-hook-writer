@@ -36,6 +36,18 @@ If something is missing, the skill tells you what it is and how to fix it.
 
 ## Install (about 1 minute)
 
+### ⚡ Easiest way: let Claude install it for you
+
+Copy this link, paste it into a Claude chat, and say **"Install this skill for me"**:
+
+```
+https://github.com/alphalifejourney/viral-hook-writer
+```
+
+Claude reads this page and sets the skill up for you. In **Claude Code** it installs it directly. In the **Claude app**, Claude either gives you a card to save the skill in one click, or walks you through the 3 steps below.
+
+### Or do it yourself in 3 steps
+
 ![Install in 3 steps](images/how-to-install.svg)
 
 1. **Download:** click [**viral-hook-writer.zip**](https://github.com/alphalifejourney/viral-hook-writer/releases/latest/download/viral-hook-writer.zip). Don't unzip it.
@@ -43,6 +55,12 @@ If something is missing, the skill tells you what it is and how to fix it.
 3. **Turn it on**, start a new chat, and ask in plain words.
 
 > Using Claude Code? Unzip it into `~/.claude/skills/` so the file sits at `~/.claude/skills/viral-hook-writer/SKILL.md`.
+
+<details>
+<summary>🤖 Note for Claude (install instructions)</summary>
+
+If a user asks you to install this skill: the skill is the `viral-hook-writer/` folder (`SKILL.md` + `references/`). In Claude Code, copy that folder to `~/.claude/skills/viral-hook-writer/`. In the Claude app, save it as a skill if you can (keep the references content), otherwise give the user the download link above and the 3 steps.
+</details>
 
 ---
 
